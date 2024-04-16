@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { HiMiniUser } from 'react-icons/hi2';
 import { FaMobileScreen } from 'react-icons/fa6';
 import { HiMail } from 'react-icons/hi';
+import Brouch from '../../public/Digital Marketing.pdf';
 import Logo from '../assets/images/logo.webp';
 import UserAlreadyExists from '../assets/images/gif/User research.gif';
 import Success from '../assets/images/success.webp';
@@ -87,9 +88,9 @@ export default function Header() {
             }).toString();
             var btm = document.getElementById('submit');
             btm.disabled = true;
-            const url = 'http://172.16.22.6:7000/api/createadmission?' + params;
+            // const url = 'http://172.16.22.6:7000/api/createadmission?' + params;
             // const url = "http://192.168.0.101:7000/api/createadmission?" + params;
-            // const url = "https://rvscas.com/api/createadmission?" + params;
+            const url = 'https://rvscas.com/api/createadmission?' + params;
             axios
                 .post(url, data)
                 .then((res) => {
@@ -100,7 +101,7 @@ export default function Header() {
                             email: '',
                             phone: '',
                         });
-                        const brochureLink = '/Digital Marketing.pdf';
+                        const brochureLink = Brouch;
                         const downloadLink = document.createElement('a');
                         downloadLink.href = brochureLink;
                         downloadLink.download = 'MBA in Applied Finance.pdf';
@@ -111,7 +112,7 @@ export default function Header() {
                         // Removing the link from the document
                         document.body.removeChild(downloadLink);
                         localStorage.setItem('Mbadm', 'mmmbbbaaadddmmmm');
-                        window.location = '/thankyou';
+                        window.location = 'thankyou';
                     } else {
                         alert('Error in Submitting Please try again later');
                     }

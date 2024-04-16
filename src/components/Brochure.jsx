@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 // import "animate.css";
 import Graduated from '../assets/images/graduated-student.webp';
 import Brouchure from '../assets/images/brouchureLogo.webp';
+import Brouch from '../../public/Digital Marketing.pdf';
 import { HiMiniUser } from 'react-icons/hi2';
 import { FaMobileScreen } from 'react-icons/fa6';
 import { HiMail } from 'react-icons/hi';
@@ -112,7 +113,7 @@ export default function Brochure(props) {
                 .then((res) => {
                     if (res.status === 200) {
                         // const brochureLink = 'https://testlanding.rvscas.ac.in/Digital%20Marketing.pdf';
-                        const brochureLink = '/Digital Marketing.pdf';
+                        const brochureLink = Brouch;
                         const downloadLink = document.createElement('a');
                         downloadLink.href = brochureLink;
                         downloadLink.download = 'MBA in Applied Finance.pdf';
@@ -123,7 +124,7 @@ export default function Brochure(props) {
                         // Removing the link from the document
                         document.body.removeChild(downloadLink);
                         localStorage.setItem('Mbadm', 'mmmbbbaaadddmmmm');
-                        window.location = '/thankyou';
+                        window.location = 'thankyou';
                         setValue({
                             name: '',
                             email: '',
