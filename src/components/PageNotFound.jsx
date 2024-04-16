@@ -22,13 +22,13 @@ export default function PageNotFound() {
                                 </p>
                                 <div className="flex gap-5">
                                     <a
-                                        href="/"
+                                        href="/applied"
                                         className="border text-base py-2 px-6 bg-primary text-white hover:bg-white hover:text-black transition duration-200"
                                     >
                                         Go Back Home
                                     </a>
                                     <a
-                                        href="https://rvscas.ac.in/"
+                                        href="https://mba.rvscas.ac.in/"
                                         target="_blank"
                                         rel="noreferrer"
                                         className="border text-base py-2 px-6 hover:bg-primary hover:text-white transition duration-200"

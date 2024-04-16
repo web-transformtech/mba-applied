@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import Thank from '../assets/images/thank.png';
+import Broch from '../../public/Digital Marketing.pdf';
 function ThankYou() {
     useEffect(() => {
         setTimeout(() => {
             localStorage.clear();
-            window.location = '/';
+            window.location = '/applied';
         }, 15000);
     }, []);
     return (
@@ -31,7 +32,7 @@ function ThankYou() {
                             </p>
 
                             <a
-                                href="/Digital Marketing.pdf"
+                                href={Broch}
                                 download="Digital Marketing.pdf"
                                 className="bg-gradient-to-t from-[#D03B0B] to-primary hover:from-primary hover:to-[#D03B0B] border border-bordercolor  text-white font-PoppinsMedium rounded-lg px-10 focus:outline-0 focus:ring-0 py-2"
                                 // onClick={() => handelDownload(BROUCHURE)}
