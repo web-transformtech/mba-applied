@@ -12,7 +12,7 @@ const Loader = lazy(() => import('./components/Loader'));
 function App() {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename="/applied">
                 <Routes>
                     {/* <Route path="/" element={<HomePage />} /> */}
                     <Route
