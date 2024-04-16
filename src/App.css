@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: ClearlyRomanHeavy;
+    src: url(./assets/fonts/ClearlyRoman/ClearlyRomanHeavy_Regular.ttf);
+}
+/* @font-face {
+  font-family: ClearlyRomanlite;
+  src: url(./assets/fonts/ClearlyRoman/clearly-roman-3.otf);
+} */
+@font-face {
+    font-family: ClearlyRomanHeavyKursiv;
+    src: url(./assets/fonts/ClearlyRoman/ClearlyRomanHeavy_kursiv.ttf);
+}
+@font-face {
+    font-family: Prociono;
+    src: url(./assets/fonts/Prociono/Prociono-Regular.ttf);
+}
+/* @font-face {
+  font-family: LatoBold;
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf);
+} */
+@font-face {
+    font-family: JosefinRegular;
+    src: url(./assets/fonts/Josefin/static/JosefinSans-Regular.ttf);
+}
+/* @font-face {
+  font-family: JosefinThin;
+  src: url(./assets/fonts/Josefin/static/JosefinSans-Thin.ttf);
+} */
+@font-face {
+    font-family: JosefinSemibold;
+    src: url(./assets/fonts/Josefin/static/JosefinSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: JosefinBold;
+    src: url(./assets/fonts/Josefin/static/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: JosefinMedium;
+    src: url(./assets/fonts/Josefin/static/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url(./assets/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: PoppinsRegular;
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(./assets/fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
+}

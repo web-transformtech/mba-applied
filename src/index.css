@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .backbar {
+        @apply bg-[linear-gradient(_180deg,rgba(255,255,255,0)_49%,rgba(255,255,255,0)_43%,#f6dd9f_54%,#f6dd9f_90%,rgba(255,255,255,0)_95%_)];
+    }
+}
