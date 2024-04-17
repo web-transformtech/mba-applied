@@ -173,6 +173,7 @@ export default function Scholarships() {
         //   alt: "Community",
         //   name: "Community",
         // },
+        
     ];
     return (
         <>
