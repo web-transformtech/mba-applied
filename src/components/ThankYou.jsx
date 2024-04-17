@@ -19,23 +19,19 @@ function ThankYou() {
                         <p className="lg:text-[46px] text-primary lge:text-[46px] md:text-3xl mdsm:text-3xl sm:text-xl text-center font-PoppinsSemiBold">
                             Thank you for showing your interest!
                         </p>
-                        {/* <div className="md:flex md:justify-center mdsm:flex mdsm:justify-center"> */}
                         <p className="font-PoppinsRegular lg:text-h4 lge:text-h4 md:text-h5 mdsm:text-h5 sm:text-base lg:text-left lge:text-left md:text-left mdsm:text-center sm:text-center pb-2">
                             “Commence your career with our advanced programs.”
                         </p>
                         <div className="text-center">
                             <p className="pb-2 font-PoppinsMedium">
-                                {/* <a href="/Digital Marketing.pdf" download="Digital Marketing.pdf"> */}
                                 <span className="text-primary font-PoppinsBold">Note : </span>If Brouchure not download Automtically. Click here to
                                 download Brouchure
-                                {/* </a> */}
                             </p>
 
                             <a
                                 href={Broch}
-                                download="Digital Marketing.pdf"
+                                download="MBA in Applied Finance.pdf"
                                 className="bg-gradient-to-t from-[#D03B0B] to-primary hover:from-primary hover:to-[#D03B0B] border border-bordercolor  text-white font-PoppinsMedium rounded-lg px-10 focus:outline-0 focus:ring-0 py-2"
-                                // onClick={() => handelDownload(BROUCHURE)}
                             >
                                 Download Brouchure
                             </a>
