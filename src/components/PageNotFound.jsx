@@ -22,7 +22,7 @@ export default function PageNotFound() {
                                 </p>
                                 <div className="flex gap-5">
                                     <a
-                                        href="/applied"
+                                        href="/mba-applied"
                                         className="border text-base py-2 px-6 bg-primary text-white hover:bg-white hover:text-black transition duration-200"
                                     >
                                         Go Back Home

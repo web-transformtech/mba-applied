@@ -5,7 +5,7 @@ function ThankYou() {
     useEffect(() => {
         setTimeout(() => {
             localStorage.clear();
-            window.location = '/applied';
+            window.location = '/mba-applied';
         }, 15000);
     }, []);
     return (
